@@ -14,3 +14,7 @@ C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNet
 C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\bin\System.Web.Helpers.xml
 C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\obj\Debug\CHI-SocialNetwork.dll
 C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\obj\Debug\CHI-SocialNetwork.pdb
+C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\bin\EntityFramework.dll
+C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\bin\EntityFramework.SqlServer.dll
+C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\bin\EntityFramework.xml
+C:\Users\George\Desktop\CHI-Hobby-Social-network\CHI-SocialNetwork\CHI-SocialNetwork\bin\EntityFramework.SqlServer.xml
