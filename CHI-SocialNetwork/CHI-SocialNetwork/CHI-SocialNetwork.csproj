@@ -93,7 +93,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="DataAccessLayer\Context.cs" />
     <Compile Include="DataAccessLayer\EfRepository.cs" />
+    <Compile Include="DataAccessLayer\Interfaces\ICommentRepository.cs" />
     <Compile Include="DataAccessLayer\Interfaces\IContext.cs" />
+    <Compile Include="DataAccessLayer\Interfaces\IFeedbackRepository.cs" />
     <Compile Include="DataAccessLayer\Interfaces\IRepository.cs" />
     <Compile Include="DataAccessLayer\Interfaces\IHobbyRepository.cs" />
     <Compile Include="DataAccessLayer\Interfaces\IUserProfileRepository.cs" />
