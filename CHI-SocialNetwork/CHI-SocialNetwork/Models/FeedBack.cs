@@ -6,7 +6,7 @@ using System.Web;
 
 namespace CHI_SocialNetwork.Models
 {
-    enum FeedBackType
+    public enum FeedBackType
     {
         None = 0,
         Like = 1,

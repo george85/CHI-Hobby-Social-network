@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B2681419-1E4B-4791-91AF-A776B10A3617}</ProjectGuid>
+    <ProjectGuid>{5B4ECE10-3E74-4D85-84FD-9F3DEEFB511A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SHI_SocialNetwork</RootNamespace>
-    <AssemblyName>SHI-SocialNetwork</AssemblyName>
+    <RootNamespace>CHI_SocialNetwork</RootNamespace>
+    <AssemblyName>CHI-SocialNetwork</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -38,12 +38,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -95,9 +89,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\FeedBack.cs" />
     <Compile Include="Models\Hobby.cs" />
+    <Compile Include="Models\Image.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserProfile.cs" />
+    <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,9 +124,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52513</DevelopmentServerPort>
+          <DevelopmentServerPort>53378</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52513/</IISUrl>
+          <IISUrl>http://localhost:18876/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -14,7 +14,7 @@ namespace CHI_SocialNetwork.Models
 
         public virtual ICollection<Comment> Comments { get; set; }
 
-        public virtual ICollection<Like> Likes { get; set; }
+        public virtual ICollection<FeedBack> Feedback { get; set; }
 
 
         public ICollection<Image> Images { get; set; }
