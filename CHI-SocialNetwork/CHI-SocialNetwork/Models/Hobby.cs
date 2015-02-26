@@ -26,7 +26,6 @@ namespace CHI_SocialNetwork.Models
 
         public int UserId { get; set; }
        
-        [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+       
     }
 }

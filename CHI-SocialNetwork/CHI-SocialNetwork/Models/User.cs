@@ -31,5 +31,12 @@ namespace CHI_SocialNetwork.Models
             get { return _friends ?? (_friends = new Collection<User>()); }
             set { _friends = value; }
         }
+
+        private ICollection<Comment> _myComments;
+        public virtual ICollection<Comment> Comments
+        {
+            get { return _myComments ?? (_myComments = new Collection<Comment>()); }
+            set { _myComments = value; }
+        }
     }
 }

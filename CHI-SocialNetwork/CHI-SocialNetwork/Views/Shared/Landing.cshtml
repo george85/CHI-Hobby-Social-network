@@ -1,0 +1,47 @@
+﻿@model CHI_SocialNetwork.ViewModels.LoginSignupViewModel
+
+@{
+    ViewBag.Title = "Landing";
+    Layout = "../Shared/_LayoutLogin.cshtml"; 
+}
+
+    <div class="container-fluid">
+        <div id="page-login" class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                
+                <div class="box">
+                    <div class="box-content">
+                        <div class="text-center">
+                            <h3 class="page-header">Login Page</h3>
+                        </div>
+                        @using (var signupForm = Html.BeginForm("Login", "Account"))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Login.Username, new { @class = "control-label" })
+                                @Html.TextBoxFor(m => m.Login.Username, new { @class = "form-control" })
+
+                            </div>
+                            <div class="form-group">
+
+                                @Html.LabelFor(m => m.Login.Password, new { @class = "control-label" })
+                                @Html.PasswordFor(m => m.Login.Password, new { @class = "form-control" })
+
+                            </div>
+
+                            <div class="text-center">
+                                <input class="text-center btn btn-primary" type="submit" value="Sign in">
+                                @Html.ActionLink("Register", "SignUp", "Account")
+                            </div>
+                            @*<div class="text-right">
+                              
+                            </div>*@
+
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

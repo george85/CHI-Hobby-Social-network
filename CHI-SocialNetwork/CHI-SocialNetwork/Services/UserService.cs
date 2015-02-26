@@ -62,7 +62,8 @@ namespace CHI_SocialNetwork.Services
                 Username = username,
                 Password = Crypto.HashPassword(password),
                 DateCreated = DateTime.Now,
-                Profile = profile
+                Profile = profile,
+                Friends = _users.All(false).ToList()
             };
 
             _users.Create(user);

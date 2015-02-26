@@ -12,13 +12,12 @@ namespace CHI_SocialNetwork.Models
 
         public DateTime DateCreated { get; set; }
 
-        public int HobbyId { get; set; }
-        [ForeignKey("HobbyId")]
-        public virtual Hobby Hobby { get; set; }
+       
+        public int AuthorId { get; set; }
 
-        [ForeignKey("UserId")]
-        public int UserId { get; set; }
-        public virtual User User { get; set; }
+        [ForeignKey("AuthorId")]
+       
+        public virtual User Author { get; set; }
 
         public string Text { get; set; }
     }

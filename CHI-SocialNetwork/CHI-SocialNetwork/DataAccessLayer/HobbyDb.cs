@@ -26,11 +26,10 @@ namespace CHI_SocialNetwork.DataAccessLayer
                     m.MapRightKey("FriendId");
                     m.ToTable("UsersFriends");
                 }
-    ); ;               
+    ); ;
             modelBuilder.Entity<User>()
-                .HasMany(user => user.Hobbies)
-                .WithOptional(hobby => hobby.User)
-                .HasForeignKey(hobby => hobby.UserId);
+                .HasMany(user => user.Hobbies);
+               
 
             modelBuilder.Entity<Hobby>().HasMany(u => u.Comments);
 
